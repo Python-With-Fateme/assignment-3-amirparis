@@ -5,13 +5,13 @@ time.sleep(1)
 print('ez test')
 time.sleep(2)
 
-num=38,15.44,12,50
+num=7
 
 print('you have 6 chances to guess')
 time.sleep(2)
 
 for i in range(6) :
-    guess=int(input('guess number 0 to 50  :'))
+    guess=int(input('guess number 0 to 10  :'))
     if guess==num :
         print( 'good job :)')
         break 
