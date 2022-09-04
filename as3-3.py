@@ -1,4 +1,6 @@
-n=str(input(' write your word :'))
-
-for i in range(5) :
-        print (n, '*' , n , '*' ,n)
+n=int(input('enter halghe range :'))
+for i in range(n) :
+        if i%2==0:
+                print( ' # ' , end='')
+        else :
+                print( ' * ' , end='')
